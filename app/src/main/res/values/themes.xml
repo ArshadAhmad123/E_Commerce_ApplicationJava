@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BazaarWala" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/lightwhite</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+    </style>
+    <style name="Base.Theme.Actionbar" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/lightwhite</item>
+        <item name="colorPrimaryDark">@color/lightwhite</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+        <item name="titleTextColor">@color/black</item>
+
+    </style>
+
+      <style name="Theme.BazaarWala" parent="Base.Theme.BazaarWala" />
+     <style name="customImage" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+         <item name="cornerFamily">rounded</item>
+         <item name="cornerSizeTopLeft">50%</item>
+         <item name="cornerSizeTopRight">50%</item>
+     </style>
+    <style name="customImage1" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">50%</item>
+    </style>
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#A12828</item>
+    </style>
+ </resources>

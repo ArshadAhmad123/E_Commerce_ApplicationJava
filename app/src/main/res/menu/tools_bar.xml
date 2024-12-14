@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/heart"
+    android:title="whishlist"
+    android:icon="@drawable/heart1"
+    app:showAsAction="always"/>
+    <item android:id="@+id/bag"
+        android:title="bag"
+        android:icon="@drawable/bag_"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#EA981E"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="160dp"
+        android:layout_height="195dp"
+        android:padding="2dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/wwattch" />
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:background="#d8006b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/brandCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d8006b"
+            android:gravity="center"
+            android:text="WROGN"
+            android:textColor="#ffffff"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/OFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d8006b"
+            android:gravity="center"
+            android:text="UP TO 70% OFF"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/brandName"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundimg"
+        android:gravity="center"
+        android:padding="3dp"
+        android:paddingEnd="10dp"
+        android:text="Anouk"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<resources>
+<dimen name="font_8sp">5.8sp</dimen>
+<dimen name="font_10sp">7sp</dimen>
+<dimen name="font_12sp">8.2sp</dimen>
+<dimen name="font_11sp">7.6sp</dimen>
+<dimen name="font_16sp">10.6sp</dimen>
+<dimen name="font_13sp">8.8sp</dimen>
+<dimen name="font_14sp">9.4sp</dimen>
+<dimen name="font_15sp">10sp</dimen>
+
+</resources>

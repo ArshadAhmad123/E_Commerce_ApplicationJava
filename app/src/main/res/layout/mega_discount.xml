@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#f9e8d8"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/brandName"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brandshape"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingEnd="10dp"
+            android:text="Anouk"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/brandCompany"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/companyshape"
+            android:gravity="center"
+            android:padding="3dp"
+            android:paddingEnd="12dp"
+            android:text="WROGN"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="145dp"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wwattch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/catagory"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="#f9e8d8"
+        android:paddingStart="2dp"
+        android:text="watches"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
